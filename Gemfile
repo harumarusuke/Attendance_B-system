@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 gem 'jbuilder',     '~> 2.5'
+gem 'ransack'
+gem 'rounding'
 
 group :development, :test do
   gem 'sqlite3'
@@ -30,3 +32,4 @@ end
 # Windows環境ではtzinfo-dataというgemを含める必要があります
 # Mac環境でもこのままでOKです
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
