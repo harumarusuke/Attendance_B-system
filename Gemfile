@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
+ruby "2.6.3"
 
 gem 'rails',        '~> 5.1.6'
 gem 'rails-i18n'
-gem 'ruby "2.6.6"'
 gem 'bcrypt'
 gem 'faker'
 gem 'bootstrap-sass'
